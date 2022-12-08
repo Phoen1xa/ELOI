@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size:10px;
+}
+
+body{
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* HEADER */
+
+h1{
+    font-size: 8rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.bgimage{
+    position: absolute;
+    width: 100%;
+    height: 70rem;
+    background-image: url("Images/bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.bas{
+    padding-top: 25rem;
+    height: 70rem;
+    position: relative;
+}
+
+
+.kesfet{
+    padding: .5rem 3rem;
+    background: transparent;
+    border: 1px solid black;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    bottom:1rem;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    transition: all .7s ease;
+}
+
+.kesfet:hover{
+    border-color: white;
+    font-size: 1.8rem;
+    background: bisque;
+    color: black;
+}
+
+/* SERGİ */
+
+.aerkek{
+    text-decoration: none;
+}
+
+.Urunler{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 6rem;
+    padding-bottom: 2rem;
+}
+
+.model-alt{
+    padding: 2rem;
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
+}
+
+.gozluk{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.gozluk2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.gozluk3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+.gozluk4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.ana-galeri{
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+.galeri-gozluk{
+    width: 20%;
+    float: left;
+    transition: all 0.7s ease;
+    opacity: 0.8;
+    padding-bottom: 2rem;
+   
+    
+}
+
+.galeri-gozluk img{
+    width: 100%;
+    float: left;
+}
+
+.hr1{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.galeri-gozluk:hover{
+    width: 19%;
+    background: black;
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: 1px white solid;
+    
+}
+
+/* CİNSİYET */
+
+.Cinsiyet{
+    width: 33%;
+    padding: 2rem 3rem;
+    float: left;
+}
+
+.Cinsiyet-butonları{
+    width: 100%;
+}
+
+
+
+.erkek{
+    padding-bottom: 3rem;
+    font-size: 7rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: .2rem 3rem;
+    background: transparent;
+    border: 1px solid rgb(9, 9, 9);
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.9s,color 0.7s,font-size 0.7s,border-color 0.7s ease;
+}
+
+.erkek:hover{
+    font-size: 6.6rem;
+    border-color: white;
+    color: black;
+    background-color: beige;
+
+}
+
+/* HAKKIMIZDA */
+
+h3{
+    font-size:6rem;
+    color:darkred;
+    font-family: 'Inter', sans-serif;
+}
+
+.hakkımızda-alt{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#hakkımızda{
+    padding: 2rem;
+    background-color:#333;
+}
+
+#hakkımızda p{
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: justify;
+    max-width: 90rem;
+    line-height: 1.3;
+    word-spacing: 0.4rem;
+    
+}
+
+/* İLETİŞİM */
+
+#iletisim{
+    padding: 3rem;
+
+}
+
+.ilet{
+    padding-top: 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+#iletisim p{
+    text-align: justify;
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.numbers{
+    margin-top: 3rem;
+}
+
+.numbers span{
+    padding: 2rem;
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size:2.5rem;
+    border-radius: 10px;
+    transition: background-color 0.8s,color 0.5s,font-size 0.5s ease;
+}
+
+
+.numbers span:hover{
+    background-color: bisque;
+    font-size:2rem;
+    color: black;
+    opacity:0.7 ;
+}
+
+.mail{
+    margin-right: 2rem;
+}
+
+.telefon-no{
+    margin-left: 2rem;
+}
+
+/* ERKEK GÜNEŞ GÖZLÜĞÜ SEKMESİ */
+
+.h12{
+    padding: 2rem;
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
+}
+
+.gozlukler-erkek{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.erkekler-gozluk{
+    width: 25%;
+    float: left;
+    transition: all 0.7s ease;
+    opacity: 0.8;
+    padding-bottom: 2rem;
+}
+
+.erkekler-gozluk img{
+    width: 100%;
+    float: left;
+}
+
+.erkekler-gozluk:hover{
+        width: 22%;
+        background: black;
+        opacity: 1;
+        cursor: pointer;
+        border-bottom: 1px white solid;
+        
+}
+
+/* FOOTER */
+
+.hrfooter{
+    padding: 0;
+}
+
+.h31{
+    color: white;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem;
+    text-align: left;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    
+
+}
+
+.kategorii{
+    text-align: left;
+    padding-left: 10rem;
+    padding-top:1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    
+}
+
+.kategorii:hover{
+    color: red;
+    display: block;
+    cursor: pointer;
+}
+
+.a1{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: left;
+    
+    
+  
+}
+
+.hakkı{
+    text-align: left;
+    padding-left: 10rem;
+    padding-top:1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+}
+
+
+.hakkı:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+
+.a1:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 1.5rem;
+   
+}
+
+/* ELİT OPTİK KARİYER */
+
+.eobas{
+    color: red;
+    font-size: 6rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2rem;
+
+}
+
+.karriyer{
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: justify;
+    max-width: 90rem;
+    line-height: 1.3;
+    word-spacing: 0.4rem;
+}
+
+.form{
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.inputbaslar{
+    color: white;
+    text-decoration:wavy;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    padding-top: 5rem;
+
+}
+
+.inputlar{
+    width: 80%;
+    height: 30%;
+    
+  
+}
+
+.kadın-erkek{
+    font-size:2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.bekar-evli{
+    font-size: 2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.yapıldı-tecilli-muaf{
+    font-size: 2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.var-yok{
+    font-size: 2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.eğitim-seviyesi{
+    font-size: 2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Ms-Office-Eta{
+    font-size: 2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.başlangıç-orta-iyi{
+    font-size: 2rem;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* MAĞAZALAR */
+
+.Magazalaryazı{
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.Izmırmagazalar{
+    font-size:2rem;
+    text-align: left;
+    padding-left: 2rem;
+    
+}
+
+.optimum{
+    border: whitesmoke 1px solid;
+    border-width: 1px;
+    border-right: 1px;
+    border-image: url(/Images/Optimum-izmir-kapak.jpg);
+}
+
+
+
